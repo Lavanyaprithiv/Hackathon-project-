@@ -1,0 +1,48 @@
+Project Title : Display Bookshelves
+
+Start Date : 15-02-2024
+
+End Date   : 28-02-2024
+
+Project Description: 
+
+1. Search for "BookShelves" with price below Rs. 15000, Category any one (like Wall Shelves / Kid Bookshelves / Study Tables, etc) &  exclude out of stock. Sort by price "High to Low", fetch the top 3 items & print all details in console output.
+
+2. From Living, retrieve all items under any one of sub-menu items like  "Seating & Chairs" or "Living Storage". Also print the same in console output.
+
+3. Under "Gift cards", choose "Birthday/Anniversay"; Fill "Customize your gift card" with valid price & date and click "Next" button; Fill "To" & "From" details under "who is this lucky person" with any one email id invalid (example: without @ symbol) and click "Submit"; Capture & display the error message in console output. Then give valid email id & validate all the given details in the "Confirm Details" section
+
+
+Steps to excute:
+
+To run the TestNG file   : click on testng.xml file then click on run as TestNGSuite.
+To run the cucumber file : click on TestRunner and then click on run as JUnit test. 
+
+Dependencies
+
+1. Selenium-java
+2. Apache.poi
+3. ExtentreRorts
+4. TestNG
+5. cucumber
+6. cucumber JUnit
+7. Logs
+
+Concepts of imeplemention :
+
+1.Selenium
+2.Sanity and Regression 
+3.Apache POI(Read & Write Data )
+4.TestNG 
+5.Page Object Model
+6.Extentreports
+7.cucumber
+8.properties
+9.Logs
+10.Screenshots
+
+
+
+
+-------------------------- Thank You --------------------------
+

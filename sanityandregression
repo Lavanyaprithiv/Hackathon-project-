@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke and Regression Test Suite">
+<listeners>
+<listener class-name="com.Utility.ExtentReport"></listener>
+</listeners>
+<test thread-count="10" name="Smoke Tests"> 
+<parameter name="Amount1" value="1000"></parameter>
+<parameter name="Amount2" value="500000"></parameter>
+<classes>
+
+<class name="com.TestCases.TC003_EnteringIncorrectAmount"/> 
+
+</classes>
+</test> <!-- Test -->
+<test thread-count="10" name="Regression Tests"> 
+<parameter name="Amount1" value="1000"></parameter>
+<parameter name="Amount2" value="500000"></parameter>
+<classes>
+<class name="com.TestCases.TC001_GettingTopThree_BookShelves"/> 
+<class name="com.TestCases.TC002_GettingAllSubOptions"/>
+<class name="com.TestCases.TC003_EnteringIncorrectAmount"/> 
+<class name="com.TestCases.TC004_FormFilling"/> 
+</classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->
